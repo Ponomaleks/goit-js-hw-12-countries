@@ -1,7 +1,33 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+h2 {
+  margin-left: 10px;
+}
+#query-input {
+  margin-left: 10px;
+}
 
-// Стили для файла с примером HTML-фрагмента
+.country-card__container {
+  display: flex;
+  justify-content: center;
+}
 
+.country-card__descr {
+  display: block;
+}
+
+.country-card__name {
+  color: black;
+  font-size: 80px;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+  padding-right: 20px;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.list {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
